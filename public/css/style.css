@@ -1,0 +1,32 @@
+
+*{
+    background-color: rgb(26, 25, 25);
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 20px;
+}
+
+li{
+    transition: 1000ms;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+li:hover{
+    transition: 1000ms;
+    text-shadow: 0px 0px 20px rgb(216, 11, 154), 0px 0px 5px rgb(216, 11, 154);
+}
+
+.navbar{
+    background-color: rgb(26, 25, 25);
+    color: rgb(216, 11, 154);
+}
